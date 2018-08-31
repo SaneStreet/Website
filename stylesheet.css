@@ -15,9 +15,9 @@ body{
 
 #header{
     background-color:red;
-    height:70px;
     width:100%;
     position: absolute;
+    top:0;
 }
 
 #content{
@@ -32,8 +32,38 @@ body{
     background-color:blue;
     left: 0;
     bottom: 0;
-    height: 70px;
+    height: 50px;
     width: 100%;
     overflow: hidden;
     position:absolute;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height:auto;
+}
+
+nav ul li a:hover{
+    color:white;
+    background-color:black;
 }
