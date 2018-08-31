@@ -14,18 +14,18 @@ body{
 }
 
 #header{
+    background-color:red;
     height:70px;
     width:100%;
-    background-color:red;
     position: absolute;
 }
 
 #content{
+    background-color:green;
     height:auto;
     width:650px;
     float: none;
     overflow: hidden;
-    background-color:green;
 }
 
 #footer{
